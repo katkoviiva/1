@@ -387,12 +387,12 @@
 							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish">
 								<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
 							</vox>
-							<vox pos="0.0 0.2 0.01" rot="0.0 10.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
-							<vox pos="-0.1 0.6 0.01" rot="0.0 10.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
-							<vox pos="0.5 0.6 0.01" rot="0.0 -20.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
 						</vox>
-						<vox pos="10.9 2.1 1.6" rot="0.0 -180.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="ART">
-							<joint pos="0.1 1.5 0.0" collide="true"/>
+						<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="ART">
+							<joint collide="true"/>
 						</vox>
 						<vox file="MOD/main/Furniture/Restaurant.vox" object="Sink">
 							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="Sink 2">
@@ -415,21 +415,21 @@
 					</group>
 				</group>
 				<group name="Lights">
-					<body pos="-6.1 4.6 -7.5" rot="0.0 -90.0 0.0" dynamic="true">
-						<vox pos="0.3 -1.0 0.3" rot="0.0 0.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
-							<vox pos="0.05 0.0 0.0" rot="0.0 45.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2"/>
-							<light pos="-0.6 0.1 -0.05" rot="0.0 0.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
-							<light pos="0.7 0.1 -0.05" rot="0.0 0.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
-							<light pos="0.0 0.1 -0.7" rot="0.0 90.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
-							<light pos="0.0 0.1 0.6" rot="0.0 90.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+					<body dynamic="true">
+						<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
+							<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2"/>
+							<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+							<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+							<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+							<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
 						</vox>
-						<rope pos="0.35 -0.2 0.25" rot="0.0 0.0 0.0" maxstretch="2">
-							<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-							<location pos="0.0 0.5 0.0" rot="0.0 0.0 0.0"/>
+						<rope maxstretch="2">
+							<location/>
+							<location/>
 						</rope>
 					</body>
-					<vox pos="14.8 4.4 -12.7" rot="0.0 0.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="led">
-						<light pos="0.05 0.0 -0.05" rot="90" type="cone" color="0.97 0.89 0.74" scale="2" angle="120"/>
+					<vox file="MOD/main/Furniture/Lamps.vox" object="led">
+						<light type="cone" color="0.97 0.89 0.74" scale="2" angle="120"/>
 					</vox>
 					<vox pos="12.7 4.4 -12.7" rot="0.0 0.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="led">
 						<light pos="0.05 0.0 -0.05" rot="90" type="cone" color="0.97 0.89 0.74" scale="2" angle="120"/>
