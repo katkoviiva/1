@@ -368,24 +368,24 @@
 									<joint type="prismatic" limits="0 0.8"/>
 									<light scale="0.4"/>
 								</vox>
-								<vox pos="-0.5 0.8 0.6" rot="0.0 0.0 0.0" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge d1">
-									<joint pos="-0.4 1.2 -0.1" rot="90.0 0.0 0.0" type="hinge" limits="0 90"/>
+								<vox prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge d1">
+									<joint type="hinge" limits="0 90"/>
 								</vox>
-								<light pos="-0.1 1.7 -0.4" scale="0.7"/>
-								<vox pos="0.5 0.8 0.6" rot="0.0 0.0 0.0" desc="Fancy!" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Frige D2">
+								<light scale="0.7"/>
+								<vox desc="Fancy!" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Frige D2">
 									<joint type="hinge" limits="-90 0"/>
 								</vox>
 							</vox>
 						</group>
-						<vox pos="12.2 0.7 2.2" rot="0.0 -170.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="car">
-							<vox pos="-0.0 0.6 -0.09" rot="0.0 170.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
-							<vox pos="0.21606 1.0 -0.1164" rot="0.0 -140.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
-							<vox pos="0.4924 0.2 -0.17682" rot="0.0 -160.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
-							<vox pos="0.59089 0.6 -0.19419" rot="0.0 -160.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+						<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="car">
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
 						</vox>
-						<vox pos="12.3 0.7 0.8" rot="0.0 -40.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="car">
-							<vox pos="0.3 1.0 -0.1" rot="0.0 30.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish">
-								<vox pos="0.0 0.2 0.01" rot="0.0 10.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
+						<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="car">
+							<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish">
+								<vox prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
 							</vox>
 							<vox pos="0.0 0.2 0.01" rot="0.0 10.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
 							<vox pos="-0.1 0.6 0.01" rot="0.0 10.0 0.0" prop="true" file="MOD/main/Furniture/Restaurant.vox" object="dish"/>
