@@ -360,20 +360,20 @@
 								<vox prop="false" file="MOD/main/Furniture/Tuxedo assets/assets/furniture/industrial.vox" object="shelf"/>
 								<vox prop="false" file="MOD/main/Furniture/Tuxedo assets/assets/furniture/industrial.vox" object="shelf"/>
 							</body>
-							<vox pos="21.0 2.1 -1.7" rot="0.0 90.0 0.0" desc="reminder: buy food, we are out of" prop="true" file="MOD/main/Furniture/Tuxedo assets/assets/furniture/office_supplies.vox" object="whiteboard">
-								<joint pos="0.1 1.2 -0.1" collide="true"/>
+							<vox desc="reminder: buy food, we are out of" prop="true" file="MOD/main/Furniture/Tuxedo assets/assets/furniture/office_supplies.vox" object="whiteboard">
+								<joint collide="true"/>
 							</vox>
-							<vox pos="22.4 0.6 -3.6" rot="0.0 0.0 0.0" density="4" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge">
-								<vox pos="0.0 0.0 0.2" rot="0.0 0.0 0.0" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge D3">
-									<joint pos="0.0 0.1 0.0" rot="0.0 0.0 0.0" type="prismatic" limits="0 0.8"/>
-									<light pos="0.0 0.5 -0.4" scale="0.4"/>
+							<vox density="4" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge">
+								<vox prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge D3">
+									<joint type="prismatic" limits="0 0.8"/>
+									<light scale="0.4"/>
 								</vox>
 								<vox pos="-0.5 0.8 0.6" rot="0.0 0.0 0.0" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Fridge d1">
 									<joint pos="-0.4 1.2 -0.1" rot="90.0 0.0 0.0" type="hinge" limits="0 90"/>
 								</vox>
 								<light pos="-0.1 1.7 -0.4" scale="0.7"/>
 								<vox pos="0.5 0.8 0.6" rot="0.0 0.0 0.0" desc="Fancy!" prop="true" file="MOD/main/Furniture/Old assets/Deparment/Furniture.vox" object="Frige D2">
-									<joint pos="0.4 1.2 -0.1" rot="90.0 0.0 0.0" type="hinge" limits="-90 0"/>
+									<joint type="hinge" limits="-90 0"/>
 								</vox>
 							</vox>
 						</group>
