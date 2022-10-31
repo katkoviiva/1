@@ -504,17 +504,17 @@
 						</rope>
 						<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
 							<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2">
-								<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
-								<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+								<light color="1.0 0.91 0.54" scale="0.9"/>
+								<light color="1.0 0.91 0.54" scale="0.9"/>
 							</vox>
-							<light pos="-0.6 0.1 -0.05" rot="0.0 0.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
-							<light pos="0.7 0.1 -0.05" rot="0.0 0.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+							<light color="1.0 0.91 0.54" scale="0.9"/>
+							<light color="1.0 0.91 0.54" scale="0.9"/>
 						</vox>
 					</body>
-					<body pos="-3.2 4.4 -5.7" dynamic="true">
-						<rope pos="0.35 -0.2 0.25" rot="0.0 0.0 0.0" maxstretch="2">
-							<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-							<location pos="0.0 0.3 0.0" rot="0.0 0.0 0.0"/>
+					<body dynamic="true">
+						<rope maxstretch="2">
+							<location/>
+							<location/>
 						</rope>
 						<vox pos="0.3 -1.0 0.3" rot="0.0 0.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
 							<vox pos="0.05 0.0 0.0" rot="0.0 45.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2">
