@@ -516,9 +516,9 @@
 							<location/>
 							<location/>
 						</rope>
-						<vox pos="0.3 -1.0 0.3" rot="0.0 0.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
-							<vox pos="0.05 0.0 0.0" rot="0.0 45.0 0.0" file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2">
-								<light pos="0.45962 0.1 -0.53033" rot="0.0 45.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
+						<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier">
+							<vox file="MOD/main/Furniture/Lamps.vox" object="Chandelier 2">
+								<light color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
 								<light pos="-0.45962 0.1 0.38891" rot="0.0 45.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
 							</vox>
 							<light pos="-0.6 0.1 -0.05" rot="0.0 0.0 0.0" color="1.0 0.91 0.54" scale="0.9" size="0.2"/>
