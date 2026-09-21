@@ -1,5 +1,5 @@
 * = $0801 ; BASIC Upstart 
-; BASIC line: 10 SYS 2061 
+; BASIC line: 10 SYS 2063 
 !byte $0C, $08, $0A, $00, $9E, $20, $32, $30, $36, $33, $00, $00, $00
 * = $080F ; Start of code 
 
